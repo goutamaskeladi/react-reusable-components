@@ -8,3 +8,26 @@ table, th, td {
     border-collapse: collapse;
     text-align: center;
 }
+
+.card-container {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.card {
+    border: 1px dotted;
+    margin: 0 1rem;
+    padding: 2rem;
+}
+
+.card img{
+    width: -webkit-fill-available; 
+}
+
+.card-info{
+    text-align: center;
+    background: chartreuse;
+}
+

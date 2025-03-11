@@ -2,7 +2,7 @@ import useFetch from "../hooks/useFetch";
 
 const UserList = () => {
   const { isLoading, data, error, setData } = useFetch(
-    "https://jsonplaceholder.typicode.com/users"
+    "https://jsonplaceholder.typicode.com/users" // https://jsonplaceholder.typicode.com/
   );
   if (isLoading) {
     return <div>Loading....</div>;

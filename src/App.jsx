@@ -1,6 +1,6 @@
-import UserList from "./components/UserList";
+import InfiniteScroll from "./components/InfiniteScroll";
 function App() {
-  return <UserList />;
+  return <InfiniteScroll />;
 }
 
 export default App;
