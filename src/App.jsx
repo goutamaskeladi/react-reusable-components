@@ -1,6 +1,6 @@
-import InfiniteScroll from "./components/InfiniteScroll";
+import WebWorkerComponent from "./components/WebWorker";
 function App() {
-  return <InfiniteScroll />;
+  return <WebWorkerComponent />;
 }
 
 export default App;
