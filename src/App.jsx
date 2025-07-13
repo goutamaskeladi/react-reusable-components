@@ -1,6 +1,6 @@
-import WebWorkerComponent from "./components/WebWorker";
+import Timer from "./components/Timer";
 function App() {
-  return <WebWorkerComponent />;
+  return <Timer initial={100} />;
 }
 
 export default App;
