@@ -1,0 +1,36 @@
+.faq {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq-list {
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.toggle {
+    float: right;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.open {
+    display: block;
+}
+
+.closed {
+    display: none;
+}

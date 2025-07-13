@@ -1,6 +1,6 @@
-import Timer from "./components/Timer";
+import Faq from "./components/Faq";
 function App() {
-  return <Timer initial={100} />;
+  return <Faq />;
 }
 
 export default App;
